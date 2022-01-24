@@ -37,7 +37,6 @@ body {
     color: #1f2937;
     border: #fff;
     overflow: auto;
-    margin: 0 -140px;
 }
 
 .link-left {
@@ -95,4 +94,9 @@ button {
     height: 50px;
     width: 50px;
     background-color: grey;
+}
+
+.image-container {
+    display: flex;
+    
 }
