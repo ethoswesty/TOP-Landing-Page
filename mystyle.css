@@ -8,7 +8,7 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    min-height: 100vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background: #1f2937;
     margin: 0;
@@ -18,8 +18,9 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    color: #f9faf8;
+    color: #e5e7eb;
     padding: 24px 140px;
+    font-size: 18px;
 }
 
 
@@ -68,6 +69,10 @@ body {
     
 }
 
+p {
+    margin: 0;
+}
+
 ul {
     list-style-type: none;
     padding-left: 0px;
@@ -81,6 +86,7 @@ h1 {
 h2 {
     text-align: center;
     padding-top: 24px;
+    font-weight: 1000;
 }
 
 button {
@@ -121,49 +127,56 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: grey;
+    background-color: #e5e7eb;
     padding: 22px 140px;
     font-style: italic;
-    font-size: 32px;
-    font-weight: 800;
-    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    color: #1f2937;
 }
 
 .reference {
     text-align: end;
     color: black;
-    font-size: 22px;
+    font-size: 24px;
     font-style: normal;
+    color: #1f2937;
 }
 
 .bottom-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #fff;
-    padding: 44px 44px;
-}
+    padding: 44px 140px;
+}   
 
 .button-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 100%;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 0 12px;
     background-color: #3882f6;
+    border-radius: 5px;
+    color: #e5e7eb;
 }
 
 .text-container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    margin: 0;
+    padding: 42px;
+}
+
+h3, p {
+    display: inline;
+    padding: 2px;
+    margin: 0;
 }
 
 h3 {
-    margin: 0;
+    font-weight: 800;
 }
 
-.bottom-text{
-    margin: 0;
+.bottom-signup-btn {
+    display: flex;
+    border: 2px solid #e5e7eb;
 }
