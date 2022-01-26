@@ -155,7 +155,11 @@ h2 {
     display: flex;
     background-color: #fff;
     padding: 44px 140px;
-}   
+}  
+
+blockquote {
+    padding: 0 24px;
+}
 
 .button-container {
     display: flex;
@@ -192,4 +196,11 @@ h3 {
     padding: 8px 24px;
     font-weight: 800;
     font-size: 18px;
+}
+
+.main-footer {
+    color: #e5e7eb;
+    padding: 26px;
+    text-align: center;
+    flex-shrink: 0;
 }
