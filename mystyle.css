@@ -68,7 +68,6 @@ body {
 .game-pic {
     float: right;
     max-width: 30%;
-    margin-left: auto;
     order:2;
     height: auto;
     border-radius: 5px;
@@ -111,8 +110,10 @@ h2 {
 .image-three,
 .image-two,
 .image-one {
-    max-width: 30%;
+    max-width: 60%;
     height: auto;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
 }
 
 .inline-container {
@@ -126,9 +127,7 @@ h2 {
     display: flex;
     text-align: center;
     padding: 44px;
-    justify-content: space-evenly;
     align-items: center;
-    gap: 24px;
 }
 
 .quote-container{
@@ -180,7 +179,7 @@ blockquote {
 
 h3, p {
     display: inline;
-    padding: 2px;
+    padding: 4px;
     margin: 0;
 }
 
